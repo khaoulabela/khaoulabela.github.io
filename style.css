@@ -1,0 +1,38 @@
+body{
+    background-color: wheat ; 
+    font-size: 20px;
+}
+h1{
+    color: rgb(231, 95, 61);
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive ;
+}
+
+button{
+    font-family:'Varela Round', sans-serif; 
+
+}
+.hover-opacity{
+    transition: opacity .5s;
+}
+.hover-opacity:hover{
+    opacity: 0.6;
+}
+
+.btn{
+    padding: 15px 0;
+    width: 160px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    align-self: center;
+
+}
+.btn-start{
+    margin-right:10px ;
+    background-color:maroon;
+    color: #fff;
+    align-self: center;
+}
